@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# 🍳 What Can I Cook?
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile app that helps you discover recipes based on ingredients you already have at home.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+- **Ingredient Search** — Add ingredients you have and find matching recipes instantly
+- **Recipe Search** — Search any dish by name
+- **Recipe Detail** — Full recipe with ingredients, measures and step-by-step instructions
+- **Saved Recipes** — Bookmark your favorite recipes for later
+- **Shopping List** — Add missing ingredients to a shopping list, grouped by recipe
+- **Meal Planner** — Plan your meals for the entire week
+- **Onboarding** — Clean intro experience on first launch
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Built With
 
-2. Start the app
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Expo Router](https://expo.github.io/router/docs/) — file-based navigation
+- [TheMealDB API](https://www.themealdb.com/) — free recipe data
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) — local data persistence
+- [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/) — UI gradients
+- [@gorhom/bottom-sheet](https://gorhom.github.io/react-native-bottom-sheet/) — meal planner picker
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
+- Node.js
+- Expo Go app on your phone
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repo
 ```bash
-npm run reset-project
+   git clone https://github.com/dtsakiridis05/what-can-i-cook.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies
+```bash
+   cd what-can-i-cook
+   npm install
+```
 
-## Learn more
+3. Start the app
+```bash
+   npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Scan the QR code with Expo Go on your phone
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📸 Design
 
-## Join the community
+Warm & cozy minimal design with a cream and brown color palette, soft shadows and smooth navigation.
 
-Join our community of developers creating universal apps.
+## 📄 License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is for personal use.
