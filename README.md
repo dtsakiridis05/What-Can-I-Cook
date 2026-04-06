@@ -2,7 +2,7 @@
 
 A React Native mobile app that helps you discover recipes based on ingredients you already have at home.
 
-## 📱 Features
+## Features
 
 - **Ingredient Search** — Add ingredients you have and find matching recipes instantly
 - **Recipe Search** — Search any dish by name
@@ -12,7 +12,7 @@ A React Native mobile app that helps you discover recipes based on ingredients y
 - **Meal Planner** — Plan your meals for the entire week
 - **Onboarding** — Clean intro experience on first launch
 
-## 🛠️ Built With
+## Built With
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -22,7 +22,7 @@ A React Native mobile app that helps you discover recipes based on ingredients y
 - [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/) — UI gradients
 - [@gorhom/bottom-sheet](https://gorhom.github.io/react-native-bottom-sheet/) — meal planner picker
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js
@@ -48,10 +48,10 @@ A React Native mobile app that helps you discover recipes based on ingredients y
 
 4. Scan the QR code with Expo Go on your phone
 
-## 📸 Design
+## Design
 
 Warm & cozy minimal design with a cream and brown color palette, soft shadows and smooth navigation.
 
-## 📄 License
+## License
 
 This project is for personal use.
