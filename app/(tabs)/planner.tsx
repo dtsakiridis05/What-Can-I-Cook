@@ -256,8 +256,9 @@ const styles = StyleSheet.create({
     mealCard: {
         flexDirection: 'row', alignItems: 'center',
         backgroundColor: '#fff', borderRadius: 16, overflow: 'hidden',
+        borderWidth: 1.5, borderColor: '#E8C99A',
         shadowColor: '#C4A882', shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2, shadowRadius: 6, elevation: 3,
+        shadowOpacity: 0.2, shadowRadius: 6, elevation: 6,
     },
     mealImage: { width: 80, height: 80 },
     mealInfo: { flex: 1, paddingHorizontal: 14 },
